@@ -1,352 +1,380 @@
 {
   "stats": {
     "suites": 33,
-    "tests": 94,
-    "passes": 44,
-    "pending": 48,
-    "failures": 2,
-    "start": "2021-02-24T03:01:13.920Z",
-    "end": "2021-02-24T03:02:27.323Z",
-    "duration": 73403
+    "tests": 92,
+    "passes": 45,
+    "pending": 46,
+    "failures": 1,
+    "start": "2021-05-12T09:03:22.646Z",
+    "end": "2021-05-12T09:04:46.333Z",
+    "duration": 83687
   },
   "tests": [
     {
       "title": "MUST be one or more URIs",
       "fullTitle": "Basic Documents @context MUST be one or more URIs",
-      "duration": 2348,
+      "duration": 3291,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be one or more URIs (negative)",
       "fullTitle": "Basic Documents @context MUST be one or more URIs (negative)",
-      "duration": 1590,
+      "duration": 818,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "first value MUST be https://www.w3.org/2018/credentials/v1",
       "fullTitle": "Basic Documents @context first value MUST be https://www.w3.org/2018/credentials/v1",
-      "duration": 2353,
+      "duration": 2676,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "first value MUST be https://www.w3.org/2018/credentials/v1 (negative)",
       "fullTitle": "Basic Documents @context first value MUST be https://www.w3.org/2018/credentials/v1 (negative)",
-      "duration": 799,
+      "duration": 739,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "subsequent items can be objects that express context information",
       "fullTitle": "Basic Documents @context subsequent items can be objects that express context information",
-      "duration": 2371,
+      "duration": 2628,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be a single URI",
       "fullTitle": "Basic Documents `id` properties MUST be a single URI",
-      "duration": 2396,
+      "duration": 2668,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be a single URI (negative)",
       "fullTitle": "Basic Documents `id` properties MUST be a single URI (negative)",
-      "duration": 738,
+      "duration": 740,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be one or more URIs",
       "fullTitle": "Basic Documents `type` properties MUST be one or more URIs",
-      "duration": 2363,
+      "duration": 2614,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be one or more URIs (negative)",
       "fullTitle": "Basic Documents `type` properties MUST be one or more URIs (negative)",
-      "duration": 766,
+      "duration": 790,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "for Credential MUST be `VerifiableCredential` plus specific type",
       "fullTitle": "Basic Documents `type` properties for Credential MUST be `VerifiableCredential` plus specific type",
-      "duration": 2313,
+      "duration": 3112,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "for Credential MUST be `VerifiableCredential` plus specific type (negative)",
       "fullTitle": "Basic Documents `type` properties for Credential MUST be `VerifiableCredential` plus specific type (negative)",
-      "duration": 722,
+      "duration": 759,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be present",
       "fullTitle": "Basic Documents `credentialSubject` property MUST be present",
-      "duration": 2357,
+      "duration": 3920,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be present, may be a set of objects",
       "fullTitle": "Basic Documents `credentialSubject` property MUST be present, may be a set of objects",
-      "duration": 2316,
+      "duration": 2597,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be present (negative - credentialSubject missing)",
       "fullTitle": "Basic Documents `credentialSubject` property MUST be present (negative - credentialSubject missing)",
-      "duration": 741,
+      "duration": 754,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be present",
       "fullTitle": "Basic Documents `issuer` property MUST be present",
-      "duration": 2334,
+      "duration": 2634,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be present (negative - missing issuer)",
       "fullTitle": "Basic Documents `issuer` property MUST be present (negative - missing issuer)",
-      "duration": 737,
+      "duration": 793,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be a single URI",
       "fullTitle": "Basic Documents `issuer` property MUST be a single URI",
-      "duration": 2326,
+      "duration": 2686,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be a single URI (negative - not URI)",
       "fullTitle": "Basic Documents `issuer` property MUST be a single URI (negative - not URI)",
-      "duration": 732,
+      "duration": 757,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be a single URI (negative - Array)",
       "fullTitle": "Basic Documents `issuer` property MUST be a single URI (negative - Array)",
-      "duration": 719,
+      "duration": 785,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be present",
       "fullTitle": "Basic Documents `issuanceDate` property MUST be present",
-      "duration": 2364,
+      "duration": 2751,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be present (negative - missing issuanceDate)",
       "fullTitle": "Basic Documents `issuanceDate` property MUST be present (negative - missing issuanceDate)",
-      "duration": 733,
+      "duration": 833,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be an RFC3339 datetime",
       "fullTitle": "Basic Documents `issuanceDate` property MUST be an RFC3339 datetime",
-      "duration": 2307,
+      "duration": 2751,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be an RFC3339 datetime (negative - RFC3339)",
       "fullTitle": "Basic Documents `issuanceDate` property MUST be an RFC3339 datetime (negative - RFC3339)",
-      "duration": 737,
+      "duration": 771,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be an RFC3339 datetime (negative - Array)",
       "fullTitle": "Basic Documents `issuanceDate` property MUST be an RFC3339 datetime (negative - Array)",
-      "duration": 721,
+      "duration": 757,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be an RFC3339 datetime",
       "fullTitle": "Basic Documents `expirationDate` property MUST be an RFC3339 datetime",
-      "duration": 2329,
+      "duration": 2640,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be an RFC3339 datetime (negative - RFC3339)",
       "fullTitle": "Basic Documents `expirationDate` property MUST be an RFC3339 datetime (negative - RFC3339)",
-      "duration": 721,
+      "duration": 837,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be an RFC3339 datetime (negative - Array)",
       "fullTitle": "Basic Documents `expirationDate` property MUST be an RFC3339 datetime (negative - Array)",
-      "duration": 717,
+      "duration": 782,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be of type `VerifiablePresentation`",
       "fullTitle": "Basic Documents Presentations MUST be of type `VerifiablePresentation`",
-      "duration": 6,
-      "currentRetry": 0,
-      "err": {
-        "stack": "Error: Command failed: /bin/cat --document-store 0xabcd --template-url https://some.org --dns-txt example.com --oav3 true --silent true /home/raymond/Desktop/govtech/oa/vc-test-suite/test/vc-data-model-1.0/input/example-8.jsonld\n/bin/cat: unrecognized option '--document-store'\nTry '/bin/cat --help' for more information.\n\n    at ChildProcess.exithandler (child_process.js:295:12)\n    at maybeClose (internal/child_process.js:1021:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:283:5)",
-        "message": "Command failed: /bin/cat --document-store 0xabcd --template-url https://some.org --dns-txt example.com --oav3 true --silent true /home/raymond/Desktop/govtech/oa/vc-test-suite/test/vc-data-model-1.0/input/example-8.jsonld\n/bin/cat: unrecognized option '--document-store'\nTry '/bin/cat --help' for more information.\n",
-        "killed": false,
-        "code": 1,
-        "signal": null,
-        "cmd": "/bin/cat --document-store 0xabcd --template-url https://some.org --dns-txt example.com --oav3 true --silent true /home/raymond/Desktop/govtech/oa/vc-test-suite/test/vc-data-model-1.0/input/example-8.jsonld",
-        "stdout": "",
-        "stderr": "/bin/cat: unrecognized option '--document-store'\nTry '/bin/cat --help' for more information.\n"
-      }
-    },
-    {
-      "title": "MUST include `verifiableCredential` and `proof`",
-      "fullTitle": "Basic Documents Presentations MUST include `verifiableCredential` and `proof`",
-      "duration": 5,
-      "currentRetry": 0,
-      "err": {
-        "stack": "Error: Command failed: /bin/cat --document-store 0xabcd --template-url https://some.org --dns-txt example.com --oav3 true --silent true /home/raymond/Desktop/govtech/oa/vc-test-suite/test/vc-data-model-1.0/input/example-8.jsonld\n/bin/cat: unrecognized option '--document-store'\nTry '/bin/cat --help' for more information.\n\n    at ChildProcess.exithandler (child_process.js:295:12)\n    at maybeClose (internal/child_process.js:1021:16)\n    at Socket.<anonymous> (internal/child_process.js:430:11)\n    at Pipe.<anonymous> (net.js:659:12)",
-        "message": "Command failed: /bin/cat --document-store 0xabcd --template-url https://some.org --dns-txt example.com --oav3 true --silent true /home/raymond/Desktop/govtech/oa/vc-test-suite/test/vc-data-model-1.0/input/example-8.jsonld\n/bin/cat: unrecognized option '--document-store'\nTry '/bin/cat --help' for more information.\n",
-        "killed": false,
-        "code": 1,
-        "signal": null,
-        "cmd": "/bin/cat --document-store 0xabcd --template-url https://some.org --dns-txt example.com --oav3 true --silent true /home/raymond/Desktop/govtech/oa/vc-test-suite/test/vc-data-model-1.0/input/example-8.jsonld",
-        "stdout": "",
-        "stderr": "/bin/cat: unrecognized option '--document-store'\nTry '/bin/cat --help' for more information.\n"
-      }
-    },
-    {
-      "title": "MUST include `verifiableCredential` and `proof` (negative - missing `verifiableCredential`)",
-      "fullTitle": "Basic Documents Presentations MUST include `verifiableCredential` and `proof` (negative - missing `verifiableCredential`)",
-      "duration": 4,
+      "duration": 8,
       "currentRetry": 0,
       "err": {}
     },
     {
-      "title": "MUST include `verifiableCredential` and `proof` (negative - missing `proof`)",
-      "fullTitle": "Basic Documents Presentations MUST include `verifiableCredential` and `proof` (negative - missing `proof`)",
-      "duration": 4,
+      "title": "MAY include `verifiableCredential` and `proof`",
+      "fullTitle": "Basic Documents Presentations MAY include `verifiableCredential` and `proof`",
+      "duration": 6,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "`proof`, if present, MUST include `type` property (negative)",
+      "fullTitle": "Basic Documents Presentations `proof`, if present, MUST include `type` property (negative)",
+      "duration": 8,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected promise to be rejected with 'Error' but it was fulfilled with { Object (@context, id, ...) }",
+        "showDiff": true,
+        "actual": {
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://www.w3.org/2018/credentials/examples/v1"
+          ],
+          "id": "urn:uuid:3978344f-8596-4c3a-a978-8fcaba3903c5",
+          "type": [
+            "VerifiablePresentation"
+          ],
+          "verifiableCredential": [
+            {
+              "@context": [
+                "https://www.w3.org/2018/credentials/v1",
+                "https://www.w3.org/2018/credentials/examples/v1"
+              ],
+              "id": "http://example.edu/credentials/3732",
+              "type": [
+                "VerifiableCredential",
+                "UniversityDegreeCredential"
+              ],
+              "issuer": "https://example.edu/issuers/14",
+              "issuanceDate": "2010-01-01T19:23:24Z",
+              "credentialSubject": {
+                "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
+                "degree": {
+                  "type": "BachelorDegree",
+                  "name": "Bachelor of Science in Mechanical Engineering"
+                }
+              },
+              "proof": [
+                {
+                  "type": "RsaSignature2018"
+                }
+              ]
+            }
+          ],
+          "proof": [
+            {}
+          ]
+        },
+        "expected": "Error",
+        "operator": "strictEqual",
+        "stack": "AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with { Object (@context, id, ...) }"
+      }
+    },
+    {
+      "title": "MAY omit `verifiableCredential`",
+      "fullTitle": "Basic Documents Presentations MAY omit `verifiableCredential`",
+      "duration": 7,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "`credentialSchema` MUST provide one or more data schemas",
       "fullTitle": "Credential Schema (optional) `credentialSchema` MUST provide one or more data schemas",
-      "duration": 2288,
+      "duration": 2617,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST specify a `type` property with a valid value",
       "fullTitle": "Credential Schema (optional) each object within `credentialSchema`... MUST specify a `type` property with a valid value",
-      "duration": 2320,
+      "duration": 2699,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST specify an `id` property",
       "fullTitle": "Credential Schema (optional) each object within `credentialSchema`... MUST specify an `id` property",
-      "duration": 2314,
+      "duration": 2583,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "value of `id` MUST be a URI identifying a schema file",
       "fullTitle": "Credential Schema (optional) each object within `credentialSchema`... value of `id` MUST be a URI identifying a schema file",
-      "duration": 2333,
+      "duration": 2773,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "`refreshService` MUST provide one or more refresh services",
       "fullTitle": "Refresh Service (optional) `refreshService` MUST provide one or more refresh services",
-      "duration": 2342,
+      "duration": 2544,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST specify a `type` property with a valid value",
       "fullTitle": "Refresh Service (optional) each object within `refreshService`... MUST specify a `type` property with a valid value",
-      "duration": 2358,
+      "duration": 2647,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST specify an `id` property",
       "fullTitle": "Refresh Service (optional) each object within `refreshService`... MUST specify an `id` property",
-      "duration": 2341,
+      "duration": 2681,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "value of `id` MUST be a URL identifying a service endpoint",
       "fullTitle": "Refresh Service (optional) each object within `refreshService`... value of `id` MUST be a URL identifying a service endpoint",
-      "duration": 2296,
+      "duration": 2670,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "`evidence` MUST provide one or more evidence objects",
       "fullTitle": "Evidence (optional) `evidence` MUST provide one or more evidence objects",
-      "duration": 2340,
+      "duration": 2631,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST specify a `type` property with a valid value",
       "fullTitle": "Evidence (optional) each object within `evidence`... MUST specify a `type` property with a valid value",
-      "duration": 2325,
+      "duration": 2624,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST include `id` and `type`",
       "fullTitle": "Credential Status (optional) `credentialStatus` property MUST include `id` and `type`",
-      "duration": 2367,
+      "duration": 2523,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST include `id` and `type` (negative - missing `id`)",
       "fullTitle": "Credential Status (optional) `credentialStatus` property MUST include `id` and `type` (negative - missing `id`)",
-      "duration": 719,
+      "duration": 743,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST include `id` and `type` (negative - missing `type`)",
       "fullTitle": "Credential Status (optional) `credentialStatus` property MUST include `id` and `type` (negative - missing `type`)",
-      "duration": 729,
+      "duration": 733,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "`termsOfUse` MUST provide one or more ToU objects",
       "fullTitle": "Terms of Use (optional) `termsOfUse` MUST provide one or more ToU objects",
-      "duration": 2324,
+      "duration": 2622,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST specify a `type` property with a valid value",
       "fullTitle": "Terms of Use (optional) each object within `termsOfUse`... MUST specify a `type` property with a valid value",
-      "duration": 2319,
+      "duration": 2660,
       "currentRetry": 0,
       "err": {}
     },
@@ -593,18 +621,6 @@
     {
       "title": "MUST be of type `VerifiablePresentation`",
       "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable presentation... MUST be of type `VerifiablePresentation`",
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "MUST include `verifiableCredential`",
-      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable presentation... MUST include `verifiableCredential`",
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "MUST include `verifiableCredential` (negative - missing `verifiableCredential`)",
-      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable presentation... MUST include `verifiableCredential` (negative - missing `verifiableCredential`)",
       "currentRetry": 0,
       "err": {}
     },
@@ -887,18 +903,6 @@
       "err": {}
     },
     {
-      "title": "MUST include `verifiableCredential`",
-      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable presentation... MUST include `verifiableCredential`",
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "MUST include `verifiableCredential` (negative - missing `verifiableCredential`)",
-      "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable presentation... MUST include `verifiableCredential` (negative - missing `verifiableCredential`)",
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
       "title": "MUST NOT leak information",
       "fullTitle": "Zero-Knowledge Proofs (optional) A verifiable presentation... MUST NOT leak information",
       "currentRetry": 0,
@@ -931,35 +935,56 @@
   ],
   "failures": [
     {
-      "title": "MUST be of type `VerifiablePresentation`",
-      "fullTitle": "Basic Documents Presentations MUST be of type `VerifiablePresentation`",
-      "duration": 6,
+      "title": "`proof`, if present, MUST include `type` property (negative)",
+      "fullTitle": "Basic Documents Presentations `proof`, if present, MUST include `type` property (negative)",
+      "duration": 8,
       "currentRetry": 0,
       "err": {
-        "stack": "Error: Command failed: /bin/cat --document-store 0xabcd --template-url https://some.org --dns-txt example.com --oav3 true --silent true /home/raymond/Desktop/govtech/oa/vc-test-suite/test/vc-data-model-1.0/input/example-8.jsonld\n/bin/cat: unrecognized option '--document-store'\nTry '/bin/cat --help' for more information.\n\n    at ChildProcess.exithandler (child_process.js:295:12)\n    at maybeClose (internal/child_process.js:1021:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:283:5)",
-        "message": "Command failed: /bin/cat --document-store 0xabcd --template-url https://some.org --dns-txt example.com --oav3 true --silent true /home/raymond/Desktop/govtech/oa/vc-test-suite/test/vc-data-model-1.0/input/example-8.jsonld\n/bin/cat: unrecognized option '--document-store'\nTry '/bin/cat --help' for more information.\n",
-        "killed": false,
-        "code": 1,
-        "signal": null,
-        "cmd": "/bin/cat --document-store 0xabcd --template-url https://some.org --dns-txt example.com --oav3 true --silent true /home/raymond/Desktop/govtech/oa/vc-test-suite/test/vc-data-model-1.0/input/example-8.jsonld",
-        "stdout": "",
-        "stderr": "/bin/cat: unrecognized option '--document-store'\nTry '/bin/cat --help' for more information.\n"
-      }
-    },
-    {
-      "title": "MUST include `verifiableCredential` and `proof`",
-      "fullTitle": "Basic Documents Presentations MUST include `verifiableCredential` and `proof`",
-      "duration": 5,
-      "currentRetry": 0,
-      "err": {
-        "stack": "Error: Command failed: /bin/cat --document-store 0xabcd --template-url https://some.org --dns-txt example.com --oav3 true --silent true /home/raymond/Desktop/govtech/oa/vc-test-suite/test/vc-data-model-1.0/input/example-8.jsonld\n/bin/cat: unrecognized option '--document-store'\nTry '/bin/cat --help' for more information.\n\n    at ChildProcess.exithandler (child_process.js:295:12)\n    at maybeClose (internal/child_process.js:1021:16)\n    at Socket.<anonymous> (internal/child_process.js:430:11)\n    at Pipe.<anonymous> (net.js:659:12)",
-        "message": "Command failed: /bin/cat --document-store 0xabcd --template-url https://some.org --dns-txt example.com --oav3 true --silent true /home/raymond/Desktop/govtech/oa/vc-test-suite/test/vc-data-model-1.0/input/example-8.jsonld\n/bin/cat: unrecognized option '--document-store'\nTry '/bin/cat --help' for more information.\n",
-        "killed": false,
-        "code": 1,
-        "signal": null,
-        "cmd": "/bin/cat --document-store 0xabcd --template-url https://some.org --dns-txt example.com --oav3 true --silent true /home/raymond/Desktop/govtech/oa/vc-test-suite/test/vc-data-model-1.0/input/example-8.jsonld",
-        "stdout": "",
-        "stderr": "/bin/cat: unrecognized option '--document-store'\nTry '/bin/cat --help' for more information.\n"
+        "message": "expected promise to be rejected with 'Error' but it was fulfilled with { Object (@context, id, ...) }",
+        "showDiff": true,
+        "actual": {
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://www.w3.org/2018/credentials/examples/v1"
+          ],
+          "id": "urn:uuid:3978344f-8596-4c3a-a978-8fcaba3903c5",
+          "type": [
+            "VerifiablePresentation"
+          ],
+          "verifiableCredential": [
+            {
+              "@context": [
+                "https://www.w3.org/2018/credentials/v1",
+                "https://www.w3.org/2018/credentials/examples/v1"
+              ],
+              "id": "http://example.edu/credentials/3732",
+              "type": [
+                "VerifiableCredential",
+                "UniversityDegreeCredential"
+              ],
+              "issuer": "https://example.edu/issuers/14",
+              "issuanceDate": "2010-01-01T19:23:24Z",
+              "credentialSubject": {
+                "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
+                "degree": {
+                  "type": "BachelorDegree",
+                  "name": "Bachelor of Science in Mechanical Engineering"
+                }
+              },
+              "proof": [
+                {
+                  "type": "RsaSignature2018"
+                }
+              ]
+            }
+          ],
+          "proof": [
+            {}
+          ]
+        },
+        "expected": "Error",
+        "operator": "strictEqual",
+        "stack": "AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with { Object (@context, id, ...) }"
       }
     }
   ],
@@ -967,308 +992,315 @@
     {
       "title": "MUST be one or more URIs",
       "fullTitle": "Basic Documents @context MUST be one or more URIs",
-      "duration": 2348,
+      "duration": 3291,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be one or more URIs (negative)",
       "fullTitle": "Basic Documents @context MUST be one or more URIs (negative)",
-      "duration": 1590,
+      "duration": 818,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "first value MUST be https://www.w3.org/2018/credentials/v1",
       "fullTitle": "Basic Documents @context first value MUST be https://www.w3.org/2018/credentials/v1",
-      "duration": 2353,
+      "duration": 2676,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "first value MUST be https://www.w3.org/2018/credentials/v1 (negative)",
       "fullTitle": "Basic Documents @context first value MUST be https://www.w3.org/2018/credentials/v1 (negative)",
-      "duration": 799,
+      "duration": 739,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "subsequent items can be objects that express context information",
       "fullTitle": "Basic Documents @context subsequent items can be objects that express context information",
-      "duration": 2371,
+      "duration": 2628,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be a single URI",
       "fullTitle": "Basic Documents `id` properties MUST be a single URI",
-      "duration": 2396,
+      "duration": 2668,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be a single URI (negative)",
       "fullTitle": "Basic Documents `id` properties MUST be a single URI (negative)",
-      "duration": 738,
+      "duration": 740,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be one or more URIs",
       "fullTitle": "Basic Documents `type` properties MUST be one or more URIs",
-      "duration": 2363,
+      "duration": 2614,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be one or more URIs (negative)",
       "fullTitle": "Basic Documents `type` properties MUST be one or more URIs (negative)",
-      "duration": 766,
+      "duration": 790,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "for Credential MUST be `VerifiableCredential` plus specific type",
       "fullTitle": "Basic Documents `type` properties for Credential MUST be `VerifiableCredential` plus specific type",
-      "duration": 2313,
+      "duration": 3112,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "for Credential MUST be `VerifiableCredential` plus specific type (negative)",
       "fullTitle": "Basic Documents `type` properties for Credential MUST be `VerifiableCredential` plus specific type (negative)",
-      "duration": 722,
+      "duration": 759,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be present",
       "fullTitle": "Basic Documents `credentialSubject` property MUST be present",
-      "duration": 2357,
+      "duration": 3920,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be present, may be a set of objects",
       "fullTitle": "Basic Documents `credentialSubject` property MUST be present, may be a set of objects",
-      "duration": 2316,
+      "duration": 2597,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be present (negative - credentialSubject missing)",
       "fullTitle": "Basic Documents `credentialSubject` property MUST be present (negative - credentialSubject missing)",
-      "duration": 741,
+      "duration": 754,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be present",
       "fullTitle": "Basic Documents `issuer` property MUST be present",
-      "duration": 2334,
+      "duration": 2634,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be present (negative - missing issuer)",
       "fullTitle": "Basic Documents `issuer` property MUST be present (negative - missing issuer)",
-      "duration": 737,
+      "duration": 793,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be a single URI",
       "fullTitle": "Basic Documents `issuer` property MUST be a single URI",
-      "duration": 2326,
+      "duration": 2686,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be a single URI (negative - not URI)",
       "fullTitle": "Basic Documents `issuer` property MUST be a single URI (negative - not URI)",
-      "duration": 732,
+      "duration": 757,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be a single URI (negative - Array)",
       "fullTitle": "Basic Documents `issuer` property MUST be a single URI (negative - Array)",
-      "duration": 719,
+      "duration": 785,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be present",
       "fullTitle": "Basic Documents `issuanceDate` property MUST be present",
-      "duration": 2364,
+      "duration": 2751,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be present (negative - missing issuanceDate)",
       "fullTitle": "Basic Documents `issuanceDate` property MUST be present (negative - missing issuanceDate)",
-      "duration": 733,
+      "duration": 833,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be an RFC3339 datetime",
       "fullTitle": "Basic Documents `issuanceDate` property MUST be an RFC3339 datetime",
-      "duration": 2307,
+      "duration": 2751,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be an RFC3339 datetime (negative - RFC3339)",
       "fullTitle": "Basic Documents `issuanceDate` property MUST be an RFC3339 datetime (negative - RFC3339)",
-      "duration": 737,
+      "duration": 771,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be an RFC3339 datetime (negative - Array)",
       "fullTitle": "Basic Documents `issuanceDate` property MUST be an RFC3339 datetime (negative - Array)",
-      "duration": 721,
+      "duration": 757,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be an RFC3339 datetime",
       "fullTitle": "Basic Documents `expirationDate` property MUST be an RFC3339 datetime",
-      "duration": 2329,
+      "duration": 2640,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be an RFC3339 datetime (negative - RFC3339)",
       "fullTitle": "Basic Documents `expirationDate` property MUST be an RFC3339 datetime (negative - RFC3339)",
-      "duration": 721,
+      "duration": 837,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST be an RFC3339 datetime (negative - Array)",
       "fullTitle": "Basic Documents `expirationDate` property MUST be an RFC3339 datetime (negative - Array)",
-      "duration": 717,
+      "duration": 782,
       "currentRetry": 0,
       "err": {}
     },
     {
-      "title": "MUST include `verifiableCredential` and `proof` (negative - missing `verifiableCredential`)",
-      "fullTitle": "Basic Documents Presentations MUST include `verifiableCredential` and `proof` (negative - missing `verifiableCredential`)",
-      "duration": 4,
+      "title": "MUST be of type `VerifiablePresentation`",
+      "fullTitle": "Basic Documents Presentations MUST be of type `VerifiablePresentation`",
+      "duration": 8,
       "currentRetry": 0,
       "err": {}
     },
     {
-      "title": "MUST include `verifiableCredential` and `proof` (negative - missing `proof`)",
-      "fullTitle": "Basic Documents Presentations MUST include `verifiableCredential` and `proof` (negative - missing `proof`)",
-      "duration": 4,
+      "title": "MAY include `verifiableCredential` and `proof`",
+      "fullTitle": "Basic Documents Presentations MAY include `verifiableCredential` and `proof`",
+      "duration": 6,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "MAY omit `verifiableCredential`",
+      "fullTitle": "Basic Documents Presentations MAY omit `verifiableCredential`",
+      "duration": 7,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "`credentialSchema` MUST provide one or more data schemas",
       "fullTitle": "Credential Schema (optional) `credentialSchema` MUST provide one or more data schemas",
-      "duration": 2288,
+      "duration": 2617,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST specify a `type` property with a valid value",
       "fullTitle": "Credential Schema (optional) each object within `credentialSchema`... MUST specify a `type` property with a valid value",
-      "duration": 2320,
+      "duration": 2699,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST specify an `id` property",
       "fullTitle": "Credential Schema (optional) each object within `credentialSchema`... MUST specify an `id` property",
-      "duration": 2314,
+      "duration": 2583,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "value of `id` MUST be a URI identifying a schema file",
       "fullTitle": "Credential Schema (optional) each object within `credentialSchema`... value of `id` MUST be a URI identifying a schema file",
-      "duration": 2333,
+      "duration": 2773,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "`refreshService` MUST provide one or more refresh services",
       "fullTitle": "Refresh Service (optional) `refreshService` MUST provide one or more refresh services",
-      "duration": 2342,
+      "duration": 2544,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST specify a `type` property with a valid value",
       "fullTitle": "Refresh Service (optional) each object within `refreshService`... MUST specify a `type` property with a valid value",
-      "duration": 2358,
+      "duration": 2647,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST specify an `id` property",
       "fullTitle": "Refresh Service (optional) each object within `refreshService`... MUST specify an `id` property",
-      "duration": 2341,
+      "duration": 2681,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "value of `id` MUST be a URL identifying a service endpoint",
       "fullTitle": "Refresh Service (optional) each object within `refreshService`... value of `id` MUST be a URL identifying a service endpoint",
-      "duration": 2296,
+      "duration": 2670,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "`evidence` MUST provide one or more evidence objects",
       "fullTitle": "Evidence (optional) `evidence` MUST provide one or more evidence objects",
-      "duration": 2340,
+      "duration": 2631,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST specify a `type` property with a valid value",
       "fullTitle": "Evidence (optional) each object within `evidence`... MUST specify a `type` property with a valid value",
-      "duration": 2325,
+      "duration": 2624,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST include `id` and `type`",
       "fullTitle": "Credential Status (optional) `credentialStatus` property MUST include `id` and `type`",
-      "duration": 2367,
+      "duration": 2523,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST include `id` and `type` (negative - missing `id`)",
       "fullTitle": "Credential Status (optional) `credentialStatus` property MUST include `id` and `type` (negative - missing `id`)",
-      "duration": 719,
+      "duration": 743,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST include `id` and `type` (negative - missing `type`)",
       "fullTitle": "Credential Status (optional) `credentialStatus` property MUST include `id` and `type` (negative - missing `type`)",
-      "duration": 729,
+      "duration": 733,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "`termsOfUse` MUST provide one or more ToU objects",
       "fullTitle": "Terms of Use (optional) `termsOfUse` MUST provide one or more ToU objects",
-      "duration": 2324,
+      "duration": 2622,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "MUST specify a `type` property with a valid value",
       "fullTitle": "Terms of Use (optional) each object within `termsOfUse`... MUST specify a `type` property with a valid value",
-      "duration": 2319,
+      "duration": 2660,
       "currentRetry": 0,
       "err": {}
     }
